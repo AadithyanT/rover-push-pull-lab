@@ -1,0 +1,91 @@
+##############################################################################
+#  ROVER PUSH AND PULL LAB  -  SUBMISSION FILE
+#
+#  1. Copy this file:    cp submission/outputs.template.txt submission/outputs.txt
+#  2. Do the tasks in ASSIGNMENT.md, in order.
+#  3. After each command, paste what the terminal printed UNDER the matching
+#     "--- N.M" line, replacing the line "(paste output here)".
+#  4. Do not edit or delete the "=== TASK" and "--- N.M" lines.
+#  5. Check your work at any time:    python3 tests/grade.py
+##############################################################################
+
+Name   :
+Reg No :
+
+
+=== TASK 1 : Connect to GitHub  (20 marks) ===
+
+--- 1.1  git remote -v ---
+(paste output here)
+
+--- 1.2  git push -u origin main ---
+(paste output here)
+
+--- 1.3  git branch -vv ---
+(paste output here)
+
+# Q1 (type the answer on the ANSWER-1 line below): which remote name now points to the COURSE repository?
+ANSWER-1 :
+
+
+=== TASK 2 : Fetch, then pull  (25 marks) ===
+
+--- 2.1  git fetch origin ---
+(paste output here)
+
+--- 2.2  git status ---
+(paste output here)
+
+--- 2.3  git diff main origin/main ---
+(paste output here)
+
+--- 2.4  git pull origin main ---
+(paste output here)
+
+
+=== TASK 3 : A rejected push  (30 marks) ===
+
+--- 3.1  git commit -am "docs: log left turn calibration" ---
+(paste output here)
+
+--- 3.2  git push origin main   (it is supposed to be rejected) ---
+(paste output here)
+
+--- 3.3  git pull --rebase origin main ---
+(paste output here)
+
+--- 3.4  git tree ---
+(paste output here)
+
+--- 3.5  git push origin main ---
+(paste output here)
+
+# Q2 (type the answer on the ANSWER-2 line below): the commit number (at least 7 characters) of the commit that GitHub made, 'docs: add field team note'
+ANSWER-2 :
+
+
+=== TASK 4 : Publish a feature branch  (15 marks) ===
+
+--- 4.1  git push -u origin feature/turn-calibration ---
+(paste output here)
+
+--- 4.2  git branch -vv ---
+(paste output here)
+
+--- 4.3  git remote show origin ---
+(paste output here)
+
+
+=== TASK 5 : Wrap up  (10 marks) ===
+
+--- 5.1  git status   (on main) ---
+(paste output here)
+
+--- 5.2  git branch -r ---
+(paste output here)
+
+--- 5.3  git log --oneline upstream/main..main ---
+(paste output here)
+
+# Q3 (type the answer on the ANSWER-3 line below): how many commits does main have that the course repository (upstream/main) does not?
+ANSWER-3 :
