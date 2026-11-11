@@ -3,3 +3,4 @@ Kestrel-1 team notes
 - Asha owns the firmware in src/.
 - Ben owns planning and the control loop speed.
 - Chitra owns the vision tools and the camera timing.
+- Field team: log every test run in CHANGELOG.md.
